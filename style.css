@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+  /* color: white; */
+}
+
+
+header {
+  background: #000000;
+}
+
+.main-nav {
+  background: #242323;
+  height: 50px;
+  display: grid;
+  align-items: center;
+  font-size: 11px;
+}
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 260px;
+}
+.main-nav ul li {
+  list-style: none;
+}
+.main-nav ul li a {
+  text-decoration: dashed;
+  color: rgb(239, 233, 233);
+}
+.main-nav ul li a i {
+  font-size: 15px;
+}
+.nav-2 {
+  background: transparent;
+  height: 120px;
+}
+.nav-2 .menu {
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+  align-items: center;
+  margin: 6px auto;
+}
+.menu-pic {
+  display: grid;
+  align-self: center;
+}
+.menu-pic img {
+  height: 60px;
+  margin: 0 auto;
+}
+.menu-pic a{
+  text-decoration: none;
+}
+.menu-pic a i {
+  font-size: 50px;
+  padding: 8px 0 5px 0;
+  color: white;
+  font-weight: 300;
+  display: grid;
+  justify-content: center;
+
+}
+.menu-sub {
+  height: 90px;
+  width: 90px;
+}
+.nav-2 .menu h3 {
+  display: grid;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+.nav-2 .menu span {
+  font-weight: 700;
+  display: grid;
+
+  font-size: 11px;
+  /* align-self: center; */
+  text-align: center;
+  color: white;
+}
+.anus {
+  height: 50px;
+  background: #242323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anus p {
+  color: white;
+  font-size: 15px;
+}
+.anus p a {
+  color: rgb(26, 110, 234);
+  text-decoration: none;
+}
+.disc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.disc img {
+  width: 160px;
+  margin: 10px;
+}
+.disc h1 {
+  font-size: 50px;
+  margin: 10px;
+  color: white;
+}
+.disc span {
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+.disc button {
+  background: rgb(26, 110, 234);
+  color: white;
+  padding: 7px 14px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  font-weight: 600;
+  margin: 10px;
+}
+.disc button:hover {
+  border: 2px solid rgb(26, 110, 234);
+  color: rgb(26, 110, 234);
+  background: white;
+}
+.disc .lmw {
+  font-size: 20px;
+}
+.disc .lmw a {
+  color: rgb(26, 110, 234);
+  text-decoration: none;
+}
+.bnr img {
+  width: 100%;
+}
+.disc-2 img {
+  width: 160px;
+  margin: 10px;
+}
+.disc-2 {
+  background: rgb(249, 248, 248);
+}
+.disc-2 h1 {
+  font-size: 50px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+}
+.disc-2 span {
+  /* display: grid; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
+.bnr-2 img {
+  width: 100%;
+  background: #8a4646;
+}
+.bnr-3-t{
+  display: flex;
+  justify-content: space-evenly;
+  /* background: red; */
+  background: rgb(249, 248, 248);
+  margin-top: 30px;
+}
+.disc-3{
+  width: 500px;
+  padding: 0px;
+
+  /* padding-left: 200px; */
+}
+.bnr-3 img{
+  width: 600px;
+}
+.disc-4 img{
+  width: 50px;
+}
+.disc-4 .d-s-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anussm{
+  text-align: center;
+  font-size: 45px;
+  padding: 30px 0;
+}
+.watchmenu{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 200px;
+
+}
